@@ -1,0 +1,16 @@
+@import "bootstrap";
+
+.schedule {
+  .schedule-header {
+    font-weight: bold;
+  }
+
+  .schedule-item {
+    border-bottom: solid 1px #ccc;
+    padding: 8px 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

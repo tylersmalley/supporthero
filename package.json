@@ -1,0 +1,33 @@
+{
+  "name": "supporthero",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "make build && node index.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-loader": "^6.2.0",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "bootstrap": "git+ssh://git@github.com/twbs/bootstrap.git#v4-dev",
+    "css-loader": "^0.23.1",
+    "exports-loader": "^0.6.2",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "flux": "^2.1.1",
+    "imports-loader": "^0.6.5",
+    "keymirror": "^0.1.1",
+    "lodash": "^3.10.1",
+    "node-sass": "^3.4.2",
+    "react": "^0.14.5",
+    "react-dom": "^0.14.5",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "whatwg-fetch": "^0.10.1"
+  },
+  "dependencies": {
+    "hapi": "^11.1.4",
+    "inert": "^3.2.0"
+  }
+}
